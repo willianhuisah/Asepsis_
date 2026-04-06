@@ -2078,6 +2078,24 @@
 		}
 
 		@media (max-width:921px) {
+			.ast-builder-grid-row-5-equal .ast-builder-grid-row {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			.site-footer-primary-section-5 {
+				grid-column: 1 / -1;
+			}
+		}
+
+		@media (max-width:544px) {
+			.ast-builder-grid-row-5-equal .ast-builder-grid-row {
+				grid-template-columns: 1fr;
+			}
+			.site-footer-primary-section-5 {
+				grid-column: auto;
+			}
+		}
+
+		@media (max-width:921px) {
 			.site-below-footer-wrap[data-section="section-below-footer-builder"].ast-footer-row-tablet-inline .site-footer-section {
 				display: flex;
 				margin-bottom: 0;
@@ -2430,6 +2448,24 @@
 
 		.ast-builder-grid-row-5-equal .ast-builder-grid-row {
 			grid-template-columns: repeat(5, 1fr);
+		}
+
+		@media (max-width:921px) {
+			.ast-builder-grid-row-5-equal .ast-builder-grid-row {
+				grid-template-columns: repeat(2, 1fr);
+			}
+			.site-footer-primary-section-5 {
+				grid-column: 1 / -1;
+			}
+		}
+
+		@media (max-width:544px) {
+			.ast-builder-grid-row-5-equal .ast-builder-grid-row {
+				grid-template-columns: 1fr;
+			}
+			.site-footer-primary-section-5 {
+				grid-column: auto;
+			}
 		}
 
 		@media (max-width:921px) {
@@ -5495,13 +5531,14 @@
 								class="footer-widget-area widget-area site-footer-focus-item footer-widget-area-inner"
 								data-section="sidebar-widgets-footer-widget-5" aria-label="Footer Widget 5"
 								role="region">
-								<section class="widget widget_text">
+								<section id="text-2" class="widget widget_text">
 									<h2 class="widget-title">Horario</h2>
 									<div class="textwidget">
-										Lunes a Viernes <br>
-										7:00 a.m. – 5:00 p.m. <br> <br>
-										Sábado <br>
-										7:00 a.m. – 1:00 p.m.
+										<p>Lunes a Viernes <br>7:00 a.m. – 5:00 p.m.</p>
+
+										<p>Sábado <br>7:00 a.m. – 1:00 p.m.</p>
+
+
 									</div>
 								</section>
 							</aside>
